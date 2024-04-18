@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="assets/css/bootstrap_css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/dang_ky.css" />
+  </head>
+  <body>
+    <div class="container-fluid main">
+      <div class="row row1">
+        <div style="margin: 0 auto; width: 80%">
+          <div class="col-lg-2 logo">
+            <a href="index.html" class="mainIcon">
+              <img src="../assets/img/IconMain.png" alt="mainIcon" />
+              <label for="mainIcon" class="nameWeb">HomeDesign</label>
+            </a>
+          </div>
+
+          <div class="text_tieu_de">
+            <h3>Trở thành viên của HomeDesign</h3>
+
+            <p class="text-end"><a href="#">Bạn cần giúp đỡ?</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row2">
+        <div class="row2_con">
+          <div class="content_left">
+            <div class="content_left_con">
+              <h4>HomeDesign</h4>
+              <p>
+                <i class="ti-shield"></i> Cửa hàng gia dụng uy tín hàng đầu Việt
+                Nam
+              </p>
+              <p>
+                <i class="ti-home"></i> Góp phần tạo nên vẻ đẹp căn nhà của
+                khách hàng
+              </p>
+              <p>
+                <i class="ti-crown"></i> Dẫn đầu lượng người mua sắm tại Việt
+                Nam
+              </p>
+            </div>
+          </div>
+
+          <div class="content_right">
+            <form action="" class="form_dang_ky text-center">
+              <h4>Đăng ký</h4>
+              <input
+                type="tel"
+                id="tai_khoan"
+                placeholder="Email/Số điện thoại"
+              />
+              <i
+                class="bi bi-check-circle-fill icon_check1"
+                id="icon_check_yes"
+              ></i>
+              <i class="bi bi-x-circle-fill icon_check1" id="icon_check_no"></i>
+              <div class="text-danger text-start" id="tb_tai_khoan"></div>
+
+              <input
+                type="password"
+                id="mat_khau"
+                placeholder="Mật khẩu bắt đầu là chữ cái/số, độ dài > 8 kí tự"
+              />
+              <i
+                class="bi bi-check-circle-fill icon_check2"
+                id="icon_check_yes_mk"
+              ></i>
+              <i
+                class="bi bi-x-circle-fill icon_check2"
+                id="icon_check_no_mk"
+              ></i>
+              <div class="text-danger text-start" id="tb_mat_khau"></div>
+
+              <input
+                type="password"
+                id="nhap_lai_mat_khau"
+                placeholder="Nhập lai mật khẩu"
+              />
+              <i
+                class="bi bi-check-circle-fill icon_check3"
+                id="icon_check_lai_mk_yes"
+              ></i>
+              <i
+                class="bi bi-x-circle-fill icon_check3"
+                id="icon_check_lai_mk_no"
+              ></i>
+              <div class="text-danger text-start" id="tb_check_mk"></div>
+
+              <input type="text" id="hoTen" placeholder="Họ và tên" />
+              <i
+                class="bi bi-check-circle-fill icon_check4"
+                id="icon_check_yes4"
+              ></i>
+              <i
+                class="bi bi-x-circle-fill icon_check4"
+                id="icon_check_no4"
+              ></i>
+              <div class="text-danger text-start" id="tb_ho_ten"></div>
+
+              <input type="date" id="ngaySinh" placeholder="" />
+              <i
+                class="bi bi-check-circle-fill icon_check5"
+                id="icon_check_yes5"
+              ></i>
+              <i
+                class="bi bi-x-circle-fill icon_check5"
+                id="icon_check_no5"
+              ></i>
+              <div class="text-danger text-start" id="tb_ngay_sinh"></div>
+
+              <input type="text" id="diaChi" placeholder="Địa chỉ" />
+              <i
+                class="bi bi-check-circle-fill icon_check6"
+                id="icon_check_yes6"
+              ></i>
+              <i
+                class="bi bi-x-circle-fill icon_check6"
+                id="icon_check_no6"
+              ></i>
+              <div class="text-danger text-start" id="tb_dia_chi"></div>
+
+              <input type="radio" id="gioiTinhNam" name="gt" value="Nam" />
+              <span id="nam">Nam</span>
+              <input type="radio" id="gioiTinhNu" name="gt" value="Nữ" />
+              <span id="nu">Nữ</span>
+              <!-- <i class="bi bi-check-circle-fill icon_check7" id="icon_check_yes7"></i>
+                        <i class="bi bi-x-circle-fill icon_check7" id="icon_check_no7"></i> -->
+              <div class="text-danger text-start" id="tb_gioi_tinh"></div>
+
+              <button class="btn btn-primary btn_tiep_theo" id="submit_dang_ky">
+                Đăng ký
+              </button>
+
+              <div class="hr">
+                <hr />
+                <p>Hoặc</p>
+                <hr />
+              </div>
+
+              <div>
+                <button class="btn btn_fb float-start border">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-facebook mb-1 mr-2"
+                    viewBox="0 0 16 16"
+                    style="color: blue"
+                  >
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                    />
+                  </svg>
+                  Facebook
+                </button>
+                <button class="btn btn_gg float-end border">
+                  <div class="img_gg">
+                    <img src="assets/img/google_logo.png" alt="" />
+                  </div>
+                  Google
+                </button>
+              </div>
+
+              <div class="dang_nhap">
+                <p class="chinh_sach">
+                  Bằng việc đăng ký, bạn đã đồng ý với ClockWorld về
+                  <a href="#">Điều khoản dịch vụ</a> &
+                  <a href="#">Chính sách bảo mật</a>
+                </p>
+                <p>
+                  Bạn đã có tài khoản? <a href="dangnhap.html">Đăng nhập</a>
+                </p>
+              </div>
+              <div class="clear"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script>
+    <script src="js/dangky.js"></script>
+  </body>
+</html>

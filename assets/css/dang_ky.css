@@ -1,0 +1,423 @@
+:root {
+  --blueTheme: #86b6de;
+  --whiteTheme: #dde0e2;
+  --BLUETHEME: #007bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: var(--whiteTheme);
+}
+
+.mainIcon {
+  display: flex;
+  flex-direction: column;
+  width: 88.68px;
+}
+
+.nameWeb {
+  text-shadow: 1px 1px 1px;
+  font-style: italic;
+  box-shadow: 1px 1px var(--blueTheme);
+  color: var(--blueTheme);
+}
+
+.row1 .logo {
+  float: left;
+  width: 30%;
+}
+
+.row1 .text_tieu_de {
+  display: flex;
+}
+
+.text_tieu_de > h3,
+.text_tieu_de > p {
+  margin: 20px;
+  line-height: 70px;
+  color: var(--BLUETHEME);
+  font-size: 25px;
+}
+
+.text_tieu_de > h3 {
+  font-weight: normal;
+}
+
+.text_tieu_de > p {
+  width: 40%;
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.text_tieu_de > p > a {
+  text-decoration: none;
+  color: red;
+  float: right;
+  margin-right: 20px;
+}
+
+.row2 {
+  background: url("../img/backgrounddangky.jpg") top center / cover no-repeat;
+}
+
+.row2_con {
+  width: 900px;
+  /* border: 1px solid; */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.row2 .content_left {
+  float: left;
+  width: 50%;
+  transform: translateX(-25%);
+  height: 100%;
+  padding: 250px 0;
+}
+
+.row2 .content_right {
+  float: right;
+  width: 50%;
+  /* transform: translateX(25%); */
+}
+
+.content_left_con {
+  float: right;
+  color: var(--whiteTheme);
+}
+
+.content_left_con p:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: 0.3s;
+}
+
+.content_left_con > h4 {
+  width: 140px;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 1px;
+  font-style: italic;
+  border-bottom: 1px solid var(--blueTheme);
+}
+
+.content_right .form_dang_ky {
+  float: right;
+  width: 90%;
+  height: auto;
+  background-color: var(--whiteTheme);
+  box-shadow: 0 0 10px white;
+  padding: 15px 25px;
+  position: relative;
+}
+
+.form_dang_ky input,
+.form_dang_ky .btn_tiep_theo {
+  width: 100%;
+  float: left;
+  height: 35px;
+}
+
+.form_dang_ky #submit_dang_ky,
+.form_dang_nhap #submit_dang_nhap {
+  background-color: rgb(198, 197, 197);
+  margin-bottom: 8px;
+}
+
+.form_dang_ky input {
+  /* margin-top: 15px; */
+  padding-left: 5px;
+}
+
+.form_dang_ky .icon_check1,
+.form_dang_ky .icon_check2,
+.form_dang_ky .icon_check3,
+.form_dang_ky .icon_check4,
+.form_dang_ky .icon_check5,
+.form_dang_ky .icon_check6,
+.form_dang_ky .icon_check7 {
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.form_dang_ky .icon_check1 {
+  top: 72px;
+}
+
+.form_dang_ky .icon_check2 {
+  top: 136px;
+}
+
+.form_dang_ky .icon_check3 {
+  top: 200px;
+}
+
+.form_dang_ky .icon_check4 {
+  top: 264px;
+}
+
+.form_dang_ky .icon_check5 {
+  top: 328px;
+}
+
+.form_dang_ky .icon_check6 {
+  top: 394px;
+}
+
+.form_dang_ky #gioiTinhNam {
+  width: 5%;
+  position: relative;
+}
+
+.form_dang_ky #nam {
+  position: absolute;
+  top: 460px;
+  left: 45px;
+}
+
+.form_dang_ky #gioiTinhNu {
+  width: 5%;
+  margin-left: 60px;
+  position: relative;
+}
+
+.form_dang_ky #nu {
+  position: absolute;
+  top: 460px;
+  left: 125px;
+}
+
+.form_dang_ky #tai_khoan {
+  margin-top: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.form_dang_ky button {
+  background-color: var(--blueTheme);
+}
+
+.form_dang_ky button:hover {
+  background-color: rgb(164, 169, 239);
+}
+
+.form_dang_ky .hr {
+  display: flex;
+  width: 100%;
+}
+
+.hr hr {
+  width: 50%;
+}
+
+.btn_fb,
+.btn_gg {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.btn_fb:hover,
+.btn_gg:hover {
+  background-color: var(--blueTheme);
+}
+
+button .img_gg {
+  float: left;
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid; */
+  margin-left: 27px;
+  margin-right: -20px;
+}
+
+.img_gg > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+}
+
+.dang_nhap > p > a {
+  text-decoration: none;
+  color: red;
+}
+
+.form_dang_ky > #tb_tai_khoan,
+.form_dang_ky > #tb_mat_khau,
+.form_dang_ky > #tb_check_mk,
+.form_dang_ky > #tb_ho_ten,
+.form_dang_ky > #tb_ngay_sinh,
+.form_dang_ky > #tb_dia_chi {
+  float: left;
+  width: 100%;
+  text-align: left;
+  min-height: 30px;
+}
+
+#submit_dang_ky:hover {
+  background-color: rgb(164, 169, 239);
+  margin-bottom: 8px;
+}
+
+/* dangnhap------------------------------------------------------------------------- */
+
+.row2 .content_right {
+  float: right;
+  width: 50%;
+  /* transform: translateX(25%); */
+}
+
+.row2 .content_left {
+  /* margin-left: 250px; */
+  height: 100%;
+  padding: 82px 0;
+  /* transform: translateY(28%); */
+}
+
+.content_left_con {
+  float: right;
+}
+
+.content_left_con p:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: 0.3s;
+}
+
+.content_left_con > h4 {
+  margin-top: 16px;
+}
+
+.row2 .content_right > a {
+  text-decoration: none;
+  color: red;
+}
+
+.content_right .form_dang_nhap {
+  float: right;
+  width: 90%;
+  height: auto;
+  background-color: var(--whiteTheme);
+  box-shadow: 0 0 5px white;
+  padding: 15px 25px;
+}
+
+.form_dang_nhap input,
+.form_dang_nhap .btn_tiep_theo {
+  width: 100%;
+  float: left;
+  height: 35px;
+}
+
+.form_dang_nhap #submit_dang_nhap {
+  background-color: rgb(198, 197, 197);
+  margin-bottom: 8px;
+}
+
+.form_dang_nhap input {
+  /* margin-top: 15px; */
+  padding-left: 5px;
+}
+
+.form_dang_nhap {
+  position: relative;
+}
+
+.form_dang_nhap .icon_check1 {
+  float: right;
+  position: absolute;
+  top: 75px;
+  right: 30px;
+}
+
+.form_dang_nhap .icon_check2 {
+  float: right;
+  position: absolute;
+  top: 140px;
+  right: 30px;
+}
+
+.form_dang_nhap #tai_khoan {
+  margin-top: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.form_dang_nhap .hr {
+  display: flex;
+  width: 100%;
+}
+
+.hr hr {
+  width: 50%;
+}
+
+.btn_fb,
+.btn_gg {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.btn_fb:hover,
+.btn_gg:hover {
+  background-color: rgb(243, 241, 241);
+}
+
+button .img_gg {
+  float: left;
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid; */
+  margin-left: 27px;
+  margin-right: -20px;
+}
+
+.img_gg > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+}
+
+.quen_mk > a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.quen_mk a:first-child {
+  float: left;
+}
+
+.quen_mk a:last-child {
+  float: right;
+}
+
+.dang_ky a {
+  text-decoration: none;
+  color: white;
+  background-color: var(--BLUETHEME);
+  padding: 10px 40px;
+  border-radius: 14px;
+  border: 1.8px solid palevioletred;
+  font-weight: 700;
+}
+
+.dang_ky a:hover {
+  background-color: rgb(164, 169, 239);
+  filter: drop-shadow(0 0 0.75rem var(--BLUETHEME));
+}
+
+.form_dang_nhap > #tb_tai_khoan,
+.form_dang_nhap > #tb_mat_khau {
+  float: left;
+  width: 100%;
+  min-height: 30px;
+}
+
+.form_dang_nhap button:hover {
+  background-color: rgb(164, 169, 239);
+  margin-bottom: 8px;
+}
+
+.form_dang_nhap button {
+  background-color: var(--blueTheme);
+}
